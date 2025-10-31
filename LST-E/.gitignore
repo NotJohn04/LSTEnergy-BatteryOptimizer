@@ -1,4 +1,30 @@
+@"
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+.env
+.env.*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# R
 .Rproj.user
 .Rhistory
 .RData
 .Ruserdata
+
+# Editors/OS
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Project data (adjust to taste)
+LST-E/smartmeterdata/
+*.csv
+*.pdf
+"@ | Out-File -Encoding utf8 .gitignore
