@@ -18,13 +18,16 @@ venv/
 .RData
 .Ruserdata
 
+# Data
+smartmeter.csv
+load_forecast.csv
+smartmeterdata/
+*.csv
+*.zip
+*.pdf
+
 # Editors/OS
 .vscode/
 .DS_Store
 Thumbs.db
 
-# Project data (adjust to taste)
-LST-E/smartmeterdata/
-*.csv
-*.pdf
-"@ | Out-File -Encoding utf8 .gitignore

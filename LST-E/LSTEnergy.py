@@ -31,7 +31,7 @@ print("Num GPUs Available: ", len(tf.config.experimental.list_physical_devices('
 print(device_lib.list_local_devices())
 tf.keras.backend.set_floatx('float64')
 
-for chunk in pd.read_csv("smartmeter.csv", chunksize= 10**6):
+for chunk in pd.read_csv("C:/Users/user/Desktop/AI Methods/LST-E/smartmeterdata/smartmeter_xaa.csv", chunksize= 10**6):
     print(chunk)
 
 data = pd.DataFrame(chunk)
